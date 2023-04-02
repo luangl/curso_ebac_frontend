@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color:rgb(7, 0, 101);
+    padding: 16px 0;
+    color:aliceblue
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.articles article h3 {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 10%);
+}
+
+#sports .articles article a {
+    background-color: rgba(2, 53, 2, 0.76);
+}
+
+#economy {
+    background-color: rgb(215, 215, 107);
+}
+
+#economy .articles article a {
+    background-color: orange;
+}
+
+#entertainment {
+    background-color: rgba(4, 4, 251, 0.519);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(4, 0, 81);
+}
+
+#tech {
+    background-color: rgba(225, 104, 18, 0.716);
+}
+
+#tech .articles article a {
+    background-color: rgb(59, 3, 3);
+}
+
+.articles article p {
+    margin-bottom: 10px;
+}
+
+header .container h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
